@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'pages#home'
   get "about" => "pages#about"    # creates the "about_path" used in navigation links
-
+  get "blog" => "pages#blog"      # creates the "blog_path" used in navigation links
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
